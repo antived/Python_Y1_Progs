@@ -1,6 +1,6 @@
 # AdAstra 2022-23 problem-4
 #
-# program to maximize_profit from day trading over N days, given N days worth
+# program to maximize profit from day trading over N days, given N days worth
 # of stock price projection of a stock. this takes a simplisitic, short-sighted
 # view (that of "day trader") and not that of a long-term equity-investor. the
 # main assumtion in day-trading is that you buy when price is showing a trend
@@ -57,4 +57,4 @@ prices = [1, 2, 100]            # expected value is 197 as per problem given
 print(profmax(prices))
 
 prices = [5, 3, 2]              # expected value is 0 as per problem given
-print(maximize_profit(prices))
+print(profmax(prices))
