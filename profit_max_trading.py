@@ -10,7 +10,7 @@
 #
 # - vedant dutta
 
-def maximize_profit(stockPriceArr):
+def profmax(stockPriceArr):
     maxProfit = 0      # initially my profit is zero as I've sold nothing
     stocksInHand = 0    # start with zero stocks-in-hand
     
@@ -45,16 +45,16 @@ def maximize_profit(stockPriceArr):
 # invoke the function with various test arrays of price projections
 #
 prices = [1, 3, 1, 2]           # expected value is 3 as per problem given
-print(maximize_profit(prices))
+print(profmax(prices))
 
 prices = [3, 4]                 # expected value is 1 as per problem given
-print(maximize_profit(prices)) 
+print(profmax(prices)) 
 
 prices = [4, 3]                 # expected value is 0 as per problem given
-print(maximize_profit(prices)) 
+print(profmax(prices)) 
 
 prices = [1, 2, 100]            # expected value is 197 as per problem given
-print(maximize_profit(prices))
+print(profmax(prices))
 
 prices = [5, 3, 2]              # expected value is 0 as per problem given
 print(maximize_profit(prices))
